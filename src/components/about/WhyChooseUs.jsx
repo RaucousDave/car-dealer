@@ -31,11 +31,11 @@ export default function WhyChooseUs() {
           We’re Not Just Selling Cars. We’re Curating Experiences.
         </p>
         <div className="flex px-5 flex-col-reverse md:flex-row gap-4 md:gap-0 py-8">
-          <div className="flex flex-col gap-7 px-3 w-[50%]  md:w-[70%] justify-center items-center">
+          <div className="flex flex-col gap-7 px-3 w-[100%] md:w-[70%] justify-center items-center">
             {reasons.map((reason, index) => {
               const Icon = reason.icon;
               return (
-                <div key={index} className="w-[400px]">
+                <div key={index} className="md:w-[400px]">
                   <Icon />
                   <h2 className="font-heading text-lg">{reason.title}</h2>
                   <p className="font-body text-sm">{reason.description}</p>
