@@ -23,7 +23,7 @@ export default function Promise() {
               View Our Collection
             </button>
           </div>
-          <div className="md:w-[80%]">
+          <div className="p-2 md:p-0 md:w-[80%]">
             <img src="/images/hero.webp" className="rounded-2xl" alt="" />
           </div>
         </div>

@@ -30,8 +30,8 @@ export default function WhyChooseUs() {
         <p className="font-body text-center mb-[2rem] opacity-80">
           We’re Not Just Selling Cars. We’re Curating Experiences.
         </p>
-        <div className="flex px-4 flex-col-reverse md:flex-row gap-4 md:gap-0 py-8">
-          <div className="flex flex-col gap-7 w-[100%] md:w-[70%] justify-center items-center">
+        <div className="flex px-5 flex-col-reverse md:flex-row gap-4 md:gap-0 py-8">
+          <div className="flex flex-col gap-7 px-3 w-[100%] md:w-[70%] justify-center items-center">
             {reasons.map((reason, index) => {
               const Icon = reason.icon;
               return (

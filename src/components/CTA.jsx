@@ -1,7 +1,7 @@
 export default function CTA() {
   return (
     <>
-      <section className="py-[4rem] bg-black text-white flex flex-col gap-3 items-center justify-center">
+      <section className="py-[4rem] text-center md:text-left bg-black text-white flex flex-col gap-3 items-center justify-center">
         <h1 className="text-4xl font-heading">
           Your Dream Car Is One Click Away.
         </h1>
