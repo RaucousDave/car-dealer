@@ -3,24 +3,24 @@ export default function Featured() {
     {
       id: 1,
       name: "BMW M4 COUPE",
-      image: "/public/images/cars/bmw-m4.jpeg",
+      image: "/images/cars/bmw-m4.jpeg",
       price: "44,500,000",
     },
     {
       id: 2,
       name: "TOYOTA LANDCRUISER",
-      image: "/public/images/cars/landcruiser.jpeg",
+      image: "/images/cars/landcruiser.jpeg",
       price: "45,000,000",
     },
     {
       id: 3,
       name: "LEXUS RX350",
-      image: "/public/images/cars/lexus-rx350.jpeg",
+      image: "/images/cars/lexus-rx350.jpeg",
       price: "34,000,000",
     },
     {
       id: 4,
-      image: "/public/images/cars/mercedes-gle.jpeg",
+      image: "/images/cars/mercedes-gle.jpeg",
       name: "MERCEDES GLE",
       price: "50,000,000",
     },
